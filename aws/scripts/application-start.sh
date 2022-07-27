@@ -2,4 +2,4 @@
 set -xe
 
 # Start Tomcat, the application server.
-service tomcat start
+sh /usr/share/tomcat8-codedeploy/bin/startup.sh
